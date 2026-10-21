@@ -1,6 +1,6 @@
 {
   "name": "escrituras-legales",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Prepara el borrador de una escritura de compraventa de inmueble urbano entre personas naturales, al contado o con mutuo hipotecario: exige los antecedentes que pide la inscripción, elige las cláusulas con criterios curados, le pregunta al abogado lo que no puede decidir y entrega la minuta con un expediente que explica cada párrafo. Versión con biblioteca sintética, sin validar por abogados.",
   "author": {
     "name": "MindTheContext"

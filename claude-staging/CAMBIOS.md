@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.1.3 · 2026-10-21
+
+La ficha del caso dice cómo se escribe cada dato que la prueba en staging tuvo que adivinar: la cuota como texto con su signo («100%»), fojas, número y año como números sin puntos, el número del plano y de cada unidad como texto, el rol de avalúo en cada unidad, el plazo de entrega cuando la entrega es a la inscripción y qué pasa con un saldo a plazo. El esqueleto trae una unidad con su rol, y un dato mal escrito se señala con el formato correcto.
+
+- Herramientas: `ensamblar_borrador`, `evaluar_ficha`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `preparar_ficha`, `ver_cambios`
+- Skills: `empezar-aqui`, `redactar-escritura`
+- Datos: sin manifiesto
+
 ## v0.1.2 · 2026-10-21
 
 Corrige textos de la biblioteca que encontró la prueba en staging. Un departamento solo se escribe en singular («dicha unidad», «entregar el inmueble») y no como si fueran varias unidades. «Precio pagado íntegro» sólo se propone si todo el precio se paga al firmar; con saldo a plazo ya no choca con la renuncia a la acción resolutoria, y la renuncia con saldo financiado por el vendedor queda como pregunta abierta (PA-12). La declaración sobre deudores de alimentos ya no afirma una consulta «con esta fecha» que el saber no conoce. Con varias unidades, la que no trae rol queda marcada [FALTA] en vez de desaparecer de la frase.
