@@ -17,7 +17,8 @@ no revisan abogados; el borrador sirve para revisar, no para firmar.
 ### 1 · Entender el caso y armar la ficha
 
 1. Llama a `preparar_ficha` con la variante (`contado` o `mutuo_hipotecario`). Trae el esqueleto,
-   los valores permitidos y las preguntas en orden.
+   todos los campos con su formato (y los valores permitidos de los cerrados) y las preguntas en
+   orden. Un campo que no está en `campos` no existe: no lo inventes ni pruebes nombres.
 2. Si el abogado ya contó el caso, **extrae de su relato** todo lo que puedas y pregunta sólo lo que
    falta. No le dispares cuarenta preguntas: agrúpalas en dos o tres rondas cortas (las partes; el
    inmueble y su título; el precio, el pago y los certificados).

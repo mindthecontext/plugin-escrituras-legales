@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.1.4 · 2026-10-21
+
+La forma de la ficha trae ahora todos sus campos, cada uno con cómo se escribe, sacados del esquema y no de una lista escrita a mano. Aparecen los que la segunda prueba tuvo que adivinar: la inscripción de cada gravamen, su acreedor, el número, banco y beneficiario del vale vista, el plazo para devolverlo y si el banco trae su minuta. La declaración DFL-2 toma el documento de la evidencia antecedente_dfl2, la misma que se revisa, en vez de pedirlo en un campo aparte que nadie encontraba.
+
+- Herramientas: `ensamblar_borrador`, `evaluar_ficha`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `preparar_ficha`, `ver_cambios`
+- Skills: `empezar-aqui`, `redactar-escritura`
+- Datos: sin manifiesto
+
 ## v0.1.3 · 2026-10-21
 
 La ficha del caso dice cómo se escribe cada dato que la prueba en staging tuvo que adivinar: la cuota como texto con su signo («100%»), fojas, número y año como números sin puntos, el número del plano y de cada unidad como texto, el rol de avalúo en cada unidad, el plazo de entrega cuando la entrega es a la inscripción y qué pasa con un saldo a plazo. El esqueleto trae una unidad con su rol, y un dato mal escrito se señala con el formato correcto.
