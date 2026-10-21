@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.1.5 · 2026-10-21
+
+Corrige fallas del motor que encontró la prueba con crédito hipotecario. Con varios compradores, cada uno aparece con su cuota («doña A, un 50%, y don B, un 50%») en vez de un porcentaje suelto. La hipoteca y la prohibición de un mismo acreedor se alzan en un solo párrafo, con una sola instrucción de pago. «La parte compradora» se designa una vez para todos los compradores. Con el precio en UF y sin su equivalencia en pesos, la pregunta sólo ofrece versiones en UF, cada una con su riesgo. La lista de faltantes coincide con las marcas del borrador.
+
+- Herramientas: `ensamblar_borrador`, `evaluar_ficha`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `preparar_ficha`, `ver_cambios`
+- Skills: `empezar-aqui`, `redactar-escritura`
+- Datos: sin manifiesto
+
 ## v0.1.4 · 2026-10-21
 
 La forma de la ficha trae ahora todos sus campos, cada uno con cómo se escribe, sacados del esquema y no de una lista escrita a mano. Aparecen los que la segunda prueba tuvo que adivinar: la inscripción de cada gravamen, su acreedor, el número, banco y beneficiario del vale vista, el plazo para devolverlo y si el banco trae su minuta. La declaración DFL-2 toma el documento de la evidencia antecedente_dfl2, la misma que se revisa, en vez de pedirlo en un campo aparte que nadie encontraba.
