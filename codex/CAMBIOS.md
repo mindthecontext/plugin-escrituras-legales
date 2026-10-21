@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.1.2 · 2026-10-21
+
+Corrige textos de la biblioteca que encontró la prueba en staging. Un departamento solo se escribe en singular («dicha unidad», «entregar el inmueble») y no como si fueran varias unidades. «Precio pagado íntegro» sólo se propone si todo el precio se paga al firmar; con saldo a plazo ya no choca con la renuncia a la acción resolutoria, y la renuncia con saldo financiado por el vendedor queda como pregunta abierta (PA-12). La declaración sobre deudores de alimentos ya no afirma una consulta «con esta fecha» que el saber no conoce. Con varias unidades, la que no trae rol queda marcada [FALTA] en vez de desaparecer de la frase.
+
+- Herramientas: `ensamblar_borrador`, `evaluar_ficha`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `preparar_ficha`, `ver_cambios`
+- Skills: `empezar-aqui`, `redactar-escritura`
+- Datos: sin manifiesto
+
 ## v0.1.1 · 2026-10-21
 
 Corrige fallas de fondo que encontró la primera prueba en staging. Los montos de cada forma de pago se escriben en la moneda del precio (una partida en pesos salía en Unidades de Fomento). Cuando el abogado decide redactar una partida en un espacio libre, el borrador la muestra marcada y el expediente la registra; antes desaparecía. Ninguna partida, persona o gravamen puede quedar fuera del borrador sin una pregunta al abogado. Un dato desconocido ya no cuenta como distinto de un valor (se advertía de un compareciente extranjero sin saber la nacionalidad). Con un solo departamento sin rol propio se usa el rol del inmueble. Las marcas [FALTA] ya no se cortan y una cuota mal escrita no interrumpe la revisión de la ficha.
