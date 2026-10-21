@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "escrituras-legales": {
+      "type": "http",
+      "url": "https://escrituras-legales.mcp.mindthecontext.ai/mcp"
+    }
+  }
+}

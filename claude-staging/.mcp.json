@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "escrituras-legales": {
+      "type": "http",
+      "url": "https://escrituras-legales-staging.mcp.mindthecontext.ai/mcp"
+    }
+  }
+}
