@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.1.6 · 2026-10-21
+
+Corrige textos de la biblioteca que encontró la prueba con crédito hipotecario. Cuando la compra se paga con crédito y el vendedor tiene una hipoteca que se alza al firmar, el saber pregunta al abogado de dónde sale el pago de esa deuda (del préstamo del banco del comprador, de sumas en custodia o con el acreedor compareciendo), en vez de suponer fondos en custodia que no existen. El vale vista ya no remite a instrucciones «por separado» que luego se escriben en la escritura. Cada rol de avalúo va con su unidad, y los avisos sobre roles ya no afirman lo que la ficha no dice.
+
+- Herramientas: `ensamblar_borrador`, `evaluar_ficha`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `preparar_ficha`, `ver_cambios`
+- Skills: `empezar-aqui`, `redactar-escritura`
+- Datos: sin manifiesto
+
 ## v0.1.5 · 2026-10-21
 
 Corrige fallas del motor que encontró la prueba con crédito hipotecario. Con varios compradores, cada uno aparece con su cuota («doña A, un 50%, y don B, un 50%») en vez de un porcentaje suelto. La hipoteca y la prohibición de un mismo acreedor se alzan en un solo párrafo, con una sola instrucción de pago. «La parte compradora» se designa una vez para todos los compradores. Con el precio en UF y sin su equivalencia en pesos, la pregunta sólo ofrece versiones en UF, cada una con su riesgo. La lista de faltantes coincide con las marcas del borrador.
