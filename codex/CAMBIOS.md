@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.1.15 · 2026-10-23
+
+Ajustes del explorador tras recorrerlo completo: a pantalla completa el final de la página ya no queda bajo la caja de mensaje de Claude; el botón de pantalla completa lleva su ícono; si una revisión no se guarda por un corte de conexión, el aviso lo dice en castellano y la revisión queda para reintentarla; el selector de sección se ve al recorrerlo con el teclado, y en la sección de formas los valores de la ficha ya no se cortan a mitad de palabra.
+
+- Herramientas: `ensamblar_borrador`, `evaluar_ficha`, `explorador_indice`, `explorador_seccion`, `explorar_biblioteca`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `preparar_ficha`, `registrar_revision`, `ver_cambios`
+- Skills: `empezar-aqui`, `redactar-escritura`
+- Datos: sin manifiesto
+
 ## v0.1.14 · 2026-10-23
 
 El explorador ofrece un botón «Pantalla completa» cuando la aplicación de Claude lo permite: la biblioteca se recorre con la estructura fija al costado y las versiones lado a lado, y «Volver al chat» la deja como estaba. Si la aplicación no lo permite, el botón no aparece.
