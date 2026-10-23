@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.1.8 · 2026-10-23
+
+Agrega una herramienta de diagnóstico para el equipo, la sonda de página: abre una página dentro de Claude y comprueba que las llamadas hechas desde ella llegan con la identidad de quien la usa. Es temporal y no cambia cómo se redacta: prepara el explorador de la biblioteca para validarla.
+
+- Herramientas: `ensamblar_borrador`, `evaluar_ficha`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `preparar_ficha`, `sonda_de_pagina`, `sonda_eco`, `ver_cambios` · aparece `sonda_de_pagina`, `sonda_eco`
+- Skills: `empezar-aqui`, `redactar-escritura`
+- Datos: sin manifiesto
+
 ## v0.1.7 · 2026-10-21
 
 Corrige lo que encontró una lectura completa de los borradores. La venta ya no remite a una cláusula de alzamiento cuando no hay nada que alzar. Con crédito, el pago de la deuda que se alza es una instrucción de la vendedora sobre lo que el banco le entrega, y ya no contradice la cláusula del precio. El cónyuge que autoriza comparece siempre, con el género que corresponde. La retención por deuda de alimentos es una instrucción al notario, no un pago ya hecho. Un gravamen que la biblioteca no sabe alzar (una prohibición del SERVIU) sale como espacio libre marcado y no como una deuda. Los avisos tributarios dependen del caso.
