@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.1.16 · 2026-10-23
+
+Con crédito hipotecario, si la ficha no dice si el banco trae su propia minuta, el saber pregunta si el banco acepta la compraventa redactada por el abogado, en vez de suponer que sí. Sólo deja de preguntar cuando la ficha dice que el banco no trae minuta.
+
+- Herramientas: `ensamblar_borrador`, `evaluar_ficha`, `explorador_indice`, `explorador_seccion`, `explorar_biblioteca`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `preparar_ficha`, `registrar_revision`, `ver_cambios`
+- Skills: `empezar-aqui`, `redactar-escritura`
+- Datos: sin manifiesto
+
 ## v0.1.15 · 2026-10-23
 
 Ajustes del explorador tras recorrerlo completo: a pantalla completa el final de la página ya no queda bajo la caja de mensaje de Claude; el botón de pantalla completa lleva su ícono; si una revisión no se guarda por un corte de conexión, el aviso lo dice en castellano y la revisión queda para reintentarla; el selector de sección se ve al recorrerlo con el teclado, y en la sección de formas los valores de la ficha ya no se cortan a mitad de palabra.
