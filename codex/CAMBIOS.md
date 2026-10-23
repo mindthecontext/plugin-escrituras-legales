@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.1.10 · 2026-10-23
+
+La sonda de página le avisa a la aplicación qué alto tiene, para que se vea completa. Sigue siendo un diagnóstico del equipo, sólo en staging.
+
+- Herramientas: `ensamblar_borrador`, `evaluar_ficha`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `preparar_ficha`, `sonda_de_pagina`, `sonda_eco`, `ver_cambios`
+- Skills: `empezar-aqui`, `redactar-escritura`
+- Datos: sin manifiesto
+
 ## v0.1.9 · 2026-10-23
 
 La sonda de página muestra qué aplicación la abre y si esa aplicación declara que puede pasar las llamadas de la página al servidor. Sigue siendo un diagnóstico del equipo, sólo en staging.
