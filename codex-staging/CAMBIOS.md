@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.1.9 · 2026-10-23
+
+La sonda de página muestra qué aplicación la abre y si esa aplicación declara que puede pasar las llamadas de la página al servidor. Sigue siendo un diagnóstico del equipo, sólo en staging.
+
+- Herramientas: `ensamblar_borrador`, `evaluar_ficha`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `preparar_ficha`, `sonda_de_pagina`, `sonda_eco`, `ver_cambios`
+- Skills: `empezar-aqui`, `redactar-escritura`
+- Datos: sin manifiesto
+
 ## v0.1.8 · 2026-10-23
 
 Agrega una herramienta de diagnóstico para el equipo, la sonda de página: abre una página dentro de Claude y comprueba que las llamadas hechas desde ella llegan con la identidad de quien la usa. Es temporal y no cambia cómo se redacta: prepara el explorador de la biblioteca para validarla.
