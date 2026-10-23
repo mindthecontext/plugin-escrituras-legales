@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.1.17 · 2026-10-23
+
+Cuatro mejoras de la biblioteca. Cuando venden varios comuneros a varios compradores, la escritura dice las proporciones de unos y otros en vez de preguntar qué versión va. Una vendedora conviviente civil sin pacto de comunidad ya no genera la pregunta sobre la comunidad. Con crédito hipotecario, si un comprador está casado en sociedad conyugal, el saber advierte que su cónyuge debe autorizar la hipoteca. Y con un vendedor deudor de alimentos, pregunta de qué fondos sale la retención y advierte que la deuda puede crecer hasta la inscripción. Todo sigue siendo sintético, sin validar por L&S.
+
+- Herramientas: `ensamblar_borrador`, `evaluar_ficha`, `explorador_indice`, `explorador_seccion`, `explorar_biblioteca`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `preparar_ficha`, `registrar_revision`, `ver_cambios`
+- Skills: `empezar-aqui`, `redactar-escritura`
+- Datos: sin manifiesto
+
 ## v0.1.16 · 2026-10-23
 
 Con crédito hipotecario, si la ficha no dice si el banco trae su propia minuta, el saber pregunta si el banco acepta la compraventa redactada por el abogado, en vez de suponer que sí. Sólo deja de preguntar cuando la ficha dice que el banco no trae minuta.
