@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.1.11 · 2026-10-23
+
+Agrega el explorador de la biblioteca, para que un abogado con rol de validador la revise: abre una página dentro de Claude con la estructura de la escritura, cada cláusula con sus versiones, los criterios que las eligen, los antecedentes indispensables y las preguntas abiertas, y deja guardada su revisión de cada pieza, atada al texto que revisó. Quien sólo usa el saber para redactar no lo ve ni puede abrirlo: el rol lo da MindTheContext. Se retira la sonda de página. No cambia cómo se redacta.
+
+- Herramientas: `ensamblar_borrador`, `evaluar_ficha`, `explorador_indice`, `explorador_seccion`, `explorar_biblioteca`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `preparar_ficha`, `registrar_revision`, `ver_cambios` · aparece `explorador_indice`, `explorador_seccion`, `explorar_biblioteca`, `registrar_revision` · desaparece `sonda_de_pagina`, `sonda_eco`
+- Skills: `empezar-aqui`, `redactar-escritura`
+- Datos: sin manifiesto
+
 ## v0.1.10 · 2026-10-23
 
 La sonda de página le avisa a la aplicación qué alto tiene, para que se vea completa. Sigue siendo un diagnóstico del equipo, sólo en staging.
