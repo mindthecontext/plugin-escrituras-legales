@@ -4,6 +4,14 @@
 
 Qué cambia para quien usa este saber, versión por versión. Lo que corre de verdad el servicio lo dice su herramienta `ver_cambios`; esto es la copia del paquete.
 
+## v0.1.12 · 2026-10-23
+
+Cómo se escribe cada dato dentro de una cláusula —el estado civil, el régimen, el nombre de un gravamen, la cita de una inscripción, un monto, una fecha, la numeración de las cláusulas— pasa a la biblioteca, donde el abogado validador lo ve y lo revisa en el explorador, en una sección nueva. Se corrigen dos frases que salían mal: el mandato para rectificar dice «actuando conjuntamente» o «indistintamente», y una adjudicación dice «en la partición de la herencia» en vez de «en particion herencia».
+
+- Herramientas: `ensamblar_borrador`, `evaluar_ficha`, `explorador_indice`, `explorador_seccion`, `explorar_biblioteca`, `listar_cobertura`, `obtener_criterios`, `preguntas_abiertas`, `preparar_ficha`, `registrar_revision`, `ver_cambios`
+- Skills: `empezar-aqui`, `redactar-escritura`
+- Datos: sin manifiesto
+
 ## v0.1.11 · 2026-10-23
 
 Agrega el explorador de la biblioteca, para que un abogado con rol de validador la revise: abre una página dentro de Claude con la estructura de la escritura, cada cláusula con sus versiones, los criterios que las eligen, los antecedentes indispensables y las preguntas abiertas, y deja guardada su revisión de cada pieza, atada al texto que revisó. Quien sólo usa el saber para redactar no lo ve ni puede abrirlo: el rol lo da MindTheContext. Se retira la sonda de página. No cambia cómo se redacta.
